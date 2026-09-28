@@ -1,0 +1,19 @@
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Uploads / generated models
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/models/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env*
+npm-debug.log*
+
+# OS
+.DS_Store
